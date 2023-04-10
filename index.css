@@ -1,0 +1,49 @@
+body {
+  margin: 0%;
+}
+/* container (playing area) */
+#container {
+  border: 1px solid black;
+  width: 99vw;
+  height: 99vh;
+  position: relative;
+  overflow: hidden;
+  box-sizing: border-box;
+  clip-path: inset(0px 0px 0px 0px);
+}
+/* bats/rodes  */
+.bat {
+  width: 150px;
+  height: 20px;
+  color: antiquewhite;
+  text-align: center;
+  font-weight: 700;
+  position: fixed;
+}
+/* top-bat(Rode 1) */
+#top-bat {
+  background-color: blue;
+  top: 0%;
+  box-shadow: 0px 0px 2px 5px blue;
+}
+/* bottom-bat (Rode 2)  */
+#bottom-bat {
+  background-color: purple;
+  box-shadow: 0px 0px 2px 5px purple;
+  bottom: 1vh;
+}
+/* ball  */
+#ball {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  border-radius: 50%;
+  background-color: red;
+}
+/* powers(they are visible after every interval and will effect score depending on power attained by bat) */
+#powers {
+  font-size: 3rem;
+  position: absolute;
+  top: 50%;
+  display: none;
+}
