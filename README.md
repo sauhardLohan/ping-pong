@@ -1,6 +1,6 @@
 # ping-pong
 
-###Made ping pong game using JavaScript HTML and CSS 
+### Made ping pong game using JavaScript HTML and CSS 
 game starts on pressing enter
 Rules for ping pong game are :
 1. Rode will score 10 points for every successful hit
