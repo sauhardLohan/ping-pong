@@ -1,7 +1,7 @@
 # ping-pong
 
 ### Made ping pong game using JavaScript HTML and CSS 
-game starts on pressing enter
+Game starts on pressing enter.
   You can move the Rods using  a (for left) and d (for right) keys. 
   Game ends when ball hits either of the vertical rods
 Rules for ping pong game are :
